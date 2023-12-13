@@ -268,7 +268,7 @@ constexpr uint64_t kMinCwndInMss = 2;
 constexpr uint64_t kMinCwndInMssForBbr{4};
 
 // Default max cwnd limit
-constexpr uint64_t kDefaultMaxCwndInMss = 2000;
+constexpr uint64_t kDefaultMaxCwndInMss = 860000;
 // Max cwnd limit for perf test purpose
 constexpr uint64_t kLargeMaxCwndInMss = 860000;
 
